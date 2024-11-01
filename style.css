@@ -1,0 +1,22 @@
+.underline {
+    text-decoration: underline;
+}
+
+table.border {
+    border: 1px solid grey;
+}
+
+table.stripe tr:nth-child(2n) {
+    background-color: #0000001f;
+    border: 0;
+}
+
+table.stripe td,
+table.stripe th {
+    border: 0;
+    padding: 8px;
+}
+
+table.stripe {
+    border-collapse: collapse;
+}
